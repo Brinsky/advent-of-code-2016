@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class FileUtility 
 {
-	public static String textFileToString(String filepath) throws IOException {
+	public static String fileToString(String filepath) throws IOException {
 		BufferedReader reader = new BufferedReader(new FileReader(filepath));
 		StringBuilder builder = new StringBuilder();
 		

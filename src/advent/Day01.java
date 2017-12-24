@@ -17,7 +17,7 @@ public class Day01 {
 	
 	public static void main(String[] args) throws IOException {
 		// Each instruction is of the form { turnOffset, distanceOffset }
-		int[][] instructions = parse(FileUtility.textFileToString("input/01.txt"));
+		int[][] instructions = parse(FileUtility.fileToString("input/01.txt"));
 
 		// Part one
 		FileUtility.printAndOutput(blocksTravelled(instructions), "output/01A.txt");
