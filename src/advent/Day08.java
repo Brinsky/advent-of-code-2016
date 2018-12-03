@@ -97,7 +97,7 @@ public class Day08 {
 		}
 	}
 
-	private static int[] extractInts(String instruction) {
+	public static int[] extractInts(String instruction) {
 		String[] valuesText = instruction.split("\\D+");
 		int[] values = new int[valuesText.length - 1];
 
